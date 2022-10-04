@@ -1,0 +1,56 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+ div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:plum;
+    height:200px;
+    color: beige;
+    font-size: 5rem;
+    outline: 5px solid beige;
+
+    }
+
+
+.A{
+    width: 100%;
+}
+ .B{
+    width: 20%; 
+}
+ .C{
+    width: 60%;
+}
+.D{
+    width: 20%;
+
+}
+
+.E{
+    width: 100%;
+
+}
+
+@media screen and (max-width: 600px) {
+    .A{
+        width: 100%;
+    }
+
+     .B{
+        display: none;
+    }
+     .C{
+        width: 100%;
+    }
+    .D{
+        width: 100%;
+    
+    }
+    .E{
+        width: 100%;
+    
+    }
+}

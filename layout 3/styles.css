@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.695);
+}
+.left-bar, .right-bar{
+    
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 5rem;
+    padding: 1em;
+ }
+
+ .column1{
+    gap: 0.5em;
+    display: flex;
+
+}
+ .left-bar{
+    border-radius: 50px;
+    width: 30%;
+    background-color: plum;
+}
+
+
+ .right-bar{
+    border-radius: 50px;
+    width: 70%;
+    background: beige;
+    
+}
+
+
+
+ @media screen and (max-width: 600px) {
+     .column1{
+        flex-direction: column;
+    }
+     .right-bar{
+        width: 100%;
+    }
+
+    .left-bar{
+        width: 100%;
+
+    }
+   
+    }
+ 

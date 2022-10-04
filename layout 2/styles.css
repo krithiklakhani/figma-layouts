@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color:plum;
+    align-items: center;
+    width: 100%;
+    
+    }
+nav{
+    display: flex;
+    margin: 1em;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+a{
+    border: 1px solid white;
+    padding: 1em;
+    font-size: 20px;
+    color: plum;
+}
+@media screen and (max-width: 600px) {
+     nav{
+        flex-direction: column;
+    }
+}
+body{
+    background-color: black;
+}

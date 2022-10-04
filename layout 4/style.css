@@ -1,0 +1,60 @@
+ body{
+    background-color: black;
+ }
+
+ main{
+    display: flex;
+    flex-wrap: wrap;
+}
+ div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:plum;
+    height:200px;
+    color: beige;
+    font-size: 5rem;
+    outline: 5px solid beige;
+    gap: 0.5em;
+
+    }
+
+
+.A{
+    width: 100%;
+}
+ .B{
+    width: 70%; 
+}
+ .E{
+    width: 30%;
+}
+.C{
+    width: 30%;
+
+}
+.D{
+    width: 70%;
+
+}
+
+@media screen and (max-width: 600px) {
+    .A{
+        width: 100%;
+    }
+
+     .B{
+        width: 100%; 
+    }
+     .E{
+        width: 100%;
+    }
+    .C{
+        width: 50%;
+    
+    }
+    .D{
+        width: 50%;
+    
+    }
+}

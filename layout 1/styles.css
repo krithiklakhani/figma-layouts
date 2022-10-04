@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.flex-item{
+  background-color:rgb(191, 92, 191);
+
+  height: 30%;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Responsive layout */
+@media screen and (max-width: 700px) {
+    
+  .flex-container {
+    flex-direction: column;
+    align-content: center;
+    
+
+  }
+}
