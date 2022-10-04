@@ -23,7 +23,7 @@ body{
   width: 200px;
   padding: 10px;
   margin: 10px;
-  font-size: 50px;
+  font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     color: rgba(249, 214, 149, 0.785);
     border-radius: 10px;
@@ -32,8 +32,12 @@ body{
   align-items: center;
   
 }
+a{
+  color: beige;
+}
 a:hover{
-    background-color: rgba(255, 255, 255, 0.715);
+    background-color: rgba(26, 15, 177, 0.405);
+   
 }
 h1{
     display: flex;
